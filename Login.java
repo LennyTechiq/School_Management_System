@@ -31,7 +31,7 @@ import java.awt.event.ActionEvent;
 import javax.swing.JPasswordField;
 
 public class Login extends JFrame {
-	private Image badge_image = new ImageIcon(Login.class.getResource("background.png")).getImage().getScaledInstance(920, 705, Image.SCALE_SMOOTH);
+	private Image badge_image = new ImageIcon(Login.class.getResource("background.jpg")).getImage().getScaledInstance(920, 705, Image.SCALE_SMOOTH);
 
 	private JPanel contentPane;
 	private JTextField txtUsername;
